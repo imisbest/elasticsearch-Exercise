@@ -1,0 +1,11 @@
+
+server:
+  port: 8989
+  servlet:
+    jsp:
+      init-parameters:
+        development: true
+spring:
+  data:
+    elasticsearch:
+      cluster-nodes: 192.168.43.128:9300
